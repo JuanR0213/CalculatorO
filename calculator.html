@@ -1,0 +1,103 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/SENA.jpg" type="image/x-icon">
+    <title>Primera programacion orientada a objetos</title>
+    <link href="css/estilo.css" rel="stylesheet" type="text/css">
+    <script src="jQUERY.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("body").hide().fadeIn(3500)
+        });
+
+      
+          </script>
+          
+
+</head>
+
+<body>
+    <form name="calculator">
+        
+
+    
+    <center>
+        <section>
+            <h1 id= "calculadora"> Mi calculadora</h1>
+        </section>
+        <strong>
+
+        <table width="20%" border="5">
+            <tr>
+                <form name="calculator">
+
+                <td colspan="5" align="center">
+                    <input name="display" type="text" id="display" size="30"></td>
+            </tr>
+            <tr>
+                <td width="30">
+                    <input name="button" type="button" id="button" value="+" onclick="document.calculator.display.value+='+'"></td>
+                <td width="30">
+                    <input name="button2" type="button" id="button2" value="-" onclick="document.calculator.display.value+='-'"></td>
+                <td width="30">
+                    <input name="button3" type="button" id="button3" value="*" onclick="document.calculator.display.value+='*'"></td>
+                <td width="30">
+                    <input name="button4" type="button" id="button4" value="/" onclick="document.calculator.display.value+='/'"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input name="num7" type="button" id="num7" value="7" onclick="document.calculator.display.value+='7'"></td>
+                <td>
+                    <input name="num8" type="button" id="num8" value="8" onclick="document.calculator.display.value+='8'"></td>
+                <td>
+                    <input name="num9" type="button" id="num9" value="9" onclick="document.calculator.display.value+='9'"></td>
+                <td>
+                    <input name="reset" type="reset" id="reset_x" value="C" onclick="mostrar_n()"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input name="num4" type="button" id="num4" value="4" onclick="document.calculator.display.value+='4'"></td>
+                <td>
+                    <input name="num5" type="button" id="num5" value="5" onclick="document.calculator.display.value+='5'"></td>
+                <td>
+                    <input name="num6" type="button" id="num6" value="6" onclick="document.calculator.display.value+='6'"></td>
+                <td>
+                    <input name="pi" type="button" id="pi" value="π" onclick="document.calculator.display.value+='3.1416'"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input name="num1" type="button" id="num1" value="1" onclick="document.calculator.display.value+='1'"></td>
+                <td>
+                    <input name="num2" type="button" id="num2" value="2" onclick="document.calculator.display.value+='2'"></td>
+                <td>
+                    <input name="num3" type="button" id="num3" value="3" onclick="document.calculator.display.value+='3'"></td>
+                <td>
+                    <input name="parentesis" type="button" id="Raiz_c" value=")" onclick="document.calculator.display.value+=')'"></td>
+            </tr>
+
+            <tr>
+                
+                <td>
+                    <input name="punto" type="button" id="punto" value="."onclick="document.calculator.display.value+='.'"></td>
+                <td>
+                    <input name="num0" type="button" id="num0" value="0" onclick="document.calculator.display.value+='0'"></td>
+                <td>
+                    <input name="igual" type="button" id="igual" value="=" onclick="document.calculator.display.value=eval(document.calculator.display.value)"></td>
+                <td>
+                    <input name="Parentesis" type="button" id="PORCENTAJE" value="(" onclick="document.calculator.display.value+='('"></td>
+                </td>
+            </tr>
+        </form>
+        </table>
+        <script>
+            document.getElementById("display").value = (hola);
+        </script>
+</body>
+
+</html>
